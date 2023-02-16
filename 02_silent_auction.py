@@ -22,6 +22,7 @@ while True:
         print("Need a higher bid")
         print()
 
+# tell the user if the item has sold or not
 if highest > price:
     print(f"The auction for the {item} finished with a bid of ${highest}")
 
